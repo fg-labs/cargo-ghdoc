@@ -22,8 +22,8 @@ type DynResult<T> = Result<T, Box<dyn Error>>;
 struct Opts {
     /// The URL to the Pull request or repo.
     ///
-    /// This can either by a pull request url, i.e. https://github.com/fulcrumgenomics/cargo-ghdoc/pull/1
-    /// Or a plain path to a repo, i.e. https://github.com/fulcrumgenomics/cargo-ghdoc
+    /// This can either by a pull request url, i.e. https://github.com/fg-labs/cargo-ghdoc/pull/1
+    /// Or a plain path to a repo, i.e. https://github.com/fg-labs/cargo-ghdoc
     url: String,
 
     /// Flag to turn off doc generation of private items

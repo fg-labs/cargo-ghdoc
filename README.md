@@ -38,7 +38,7 @@ cargo install cargo-ghdoc
 From an open PR page in github, copy the URL at the top of the page. Then run the following, replacing the URL here with your open PR.
 
 ```bash
-cargo ghdoc https://github.com/fulcrumgenomics/cargo-ghdoc/pull/1
+cargo ghdoc https://github.com/fg-labs/cargo-ghdoc/pull/1
 ```
 
 This will open the Rust docs for the Rust project from a checkout of that PR.
